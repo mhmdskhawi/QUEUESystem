@@ -58,6 +58,8 @@ Public Class FormDashboard
         If dt.Rows.Count > 0 Then
             DataGridView3.DataSource = dt
         End If
+
+
     End Sub
     Public Sub Teller_4()
         con.Open()
